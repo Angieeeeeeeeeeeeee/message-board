@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './MSGboard.css';
 
 function App() {
   return (
