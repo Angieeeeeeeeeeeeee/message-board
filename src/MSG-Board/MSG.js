@@ -1,25 +1,21 @@
-import logo from './logo.svg';
 import './MSGboard.css';
+import React from 'react';
 
-function App() {
+
+function MSG({ author, time, children}) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='MSGcontainer'>
+      <div className='MSG-head'>
+        <div className='MSGauthor' id>{author}</div>
+        <div className='MSGtime'>{time}</div>
+      </div>
+      <div className='MSG-body'>
+        <div className='MSGcontent'>{children}</div>
+      </div>
+
     </div>
-  );
+  )
+
 }
 
-export default App;
+export default MSG;
