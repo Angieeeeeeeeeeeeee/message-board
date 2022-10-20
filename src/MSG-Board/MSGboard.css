@@ -5,15 +5,18 @@
 .board {
   height: 100vh;
   width: 100vw;
-  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
+
 .board-form {
   margin-top: 16px;
 }
 
 .board-input {
-  height: 18vh;
-  width: 18vw;
+  height: 30vh;
+  width: 30vw;
 }
 
 .board-summit {
@@ -24,11 +27,9 @@
 
 .board-list {
   position: relative;
-  display: flex;
-  flex-direction: column;
   margin-top: 15px;
   border: solid;
-  max-width: 300px;
+  min-width: 250px;
 }
 
 .MSG-head {
