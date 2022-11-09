@@ -15,8 +15,8 @@
 }
 
 .board-input {
-  height: 30vh;
-  width: 30vw;
+  height: 20vh;
+  width: 40vw;
 }
 
 .board-summit {
@@ -28,11 +28,26 @@
 .board-list {
   position: relative;
   margin-top: 15px;
-  border: solid;
   min-width: 250px;
+  max-width: 600px;
+  word-break: break-word;
 }
 
 .MSG-head {
   display: flex;
   justify-content: space-between;
+  font-weight: 300;
+  color: #8b6751;
+}
+
+.MSG-container {
+  border: solid;
+  margin-top: 12px;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.MSG-content {
+  margin-top: 10px;
+  font-weight: 450;
 }

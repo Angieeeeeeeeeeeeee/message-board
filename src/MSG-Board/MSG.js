@@ -4,13 +4,13 @@ import React from 'react';
 
 function MSG({ author, time, children}) {
   return (
-    <div className='MSGcontainer'>
+    <div className='MSG-container'>
       <div className='MSG-head'>
-        <div className='MSGauthor' id>{author}</div>
-        <div className='MSGtime'>{time}</div>
+        <div className='MSG-author'>{author}</div>
+        <div className='MSG-time'>{time}</div>
       </div>
       <div className='MSG-body'>
-        <div className='MSGcontent'>{children}</div>
+        <div className='MSG-content'>{children}</div>
       </div>
 
     </div>
