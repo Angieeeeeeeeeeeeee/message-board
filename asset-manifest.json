@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Angieeeeeeeeeeeeee/message-board/static/css/main.3ebe5b67.css",
+    "main.js": "/Angieeeeeeeeeeeeee/message-board/static/js/main.9a564f15.js",
+    "static/js/787.77dab536.chunk.js": "/Angieeeeeeeeeeeeee/message-board/static/js/787.77dab536.chunk.js",
+    "index.html": "/Angieeeeeeeeeeeeee/message-board/index.html",
+    "main.3ebe5b67.css.map": "/Angieeeeeeeeeeeeee/message-board/static/css/main.3ebe5b67.css.map",
+    "main.9a564f15.js.map": "/Angieeeeeeeeeeeeee/message-board/static/js/main.9a564f15.js.map",
+    "787.77dab536.chunk.js.map": "/Angieeeeeeeeeeeeee/message-board/static/js/787.77dab536.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ebe5b67.css",
+    "static/js/main.9a564f15.js"
+  ]
+}
